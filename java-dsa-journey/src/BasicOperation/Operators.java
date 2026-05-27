@@ -17,5 +17,17 @@ public class Operators {
         System.out.println(projected);
         System.out.println(average);
         System.out.println(remainder);
+
+//        Relational Operators
+
+        int num1 = 10;
+        int num2 = 20;
+
+        System.out.println(num1==num2);
+        System.out.println(num1!=num2);
+        System.out.println(num1>=num2);
+        System.out.println(num1>num2);
+        System.out.println(num1<=num2);
+        System.out.println(num1<num2);
 }
 }
