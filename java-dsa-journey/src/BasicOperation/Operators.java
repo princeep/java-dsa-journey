@@ -37,5 +37,20 @@ public class Operators {
         System.out.println(completedDSA && completedCore);
         System.out.println(completedDSA || completedCore);
         System.out.println(!completedCore);
+
+//        Bitwise Operators
+        int x = 6;
+        int y = 3;
+        System.out.println(x&y);
+        System.out.println(x | y);
+        System.out.println(x ^ y);
+        System.out.println(~x);
+        System.out.println(x << 1);
+        System.out.println(x >> 1);
+
+//        Ternary Operator
+        int solveProblem = 250;
+        String level = (solveProblem>=300)?"Advanced":"Intermediate";
+        System.out.println(level);
 }
 }
