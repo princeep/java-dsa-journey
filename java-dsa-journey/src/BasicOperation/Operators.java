@@ -29,5 +29,13 @@ public class Operators {
         System.out.println(num1>num2);
         System.out.println(num1<=num2);
         System.out.println(num1<num2);
+
+//        Logical Operators
+        boolean completedDSA = true;
+        boolean completedCore = false;
+
+        System.out.println(completedDSA && completedCore);
+        System.out.println(completedDSA || completedCore);
+        System.out.println(!completedCore);
 }
 }
