@@ -38,7 +38,20 @@ public class Arrays {
         }
 
         System.out.println("Element not found");
-    }
+
+//        Implement 2D Array and traversing
+        int [][]matrix = {
+                {2,3,4},{2,5,6},{5,6,7}
+        };
+
+        for (int row = 0; row < matrix.length; row++) {
+            for (int col = 0; col < matrix[row].length; col++) {
+                System.out.print(matrix[row][col] + " ");
+            }
+            System.out.println();
+        }
+
+      }
 
     }
 
