@@ -5,5 +5,11 @@ public class StringExample {
 
         String str = "Prince";
         System.out.println(str.length());
+
+        String stri = "Code";
+
+        for (int i = 0; i < stri.length(); i++) {
+            System.out.println(str.charAt(i));
+        }
     }
 }
