@@ -11,5 +11,24 @@ public class StringExample {
         for (int i = 0; i < stri.length(); i++) {
             System.out.println(str.charAt(i));
         }
+
+//        Count Length Without length()
+        int count = 0;
+        for(int i=0;i<str.length();i++){
+            count++;
+        }
+        System.out.println("number of character"+count);
+
+//        Count Vowels
+        for(int i=0;i<str.length();i++){
+            char ch = str.charAt(i);
+            if(ch=='a' || ch=='A' || ch=='e' || ch=='E' || ch=='i' || ch=='I' || ch=='o' || ch=='O' || ch=='u' || ch=='U'){
+                System.out.println(ch + " is vowel");
+            }
+            else {
+                System.out.println(ch + "is consonunt");
+            }
+        }
+        
     }
 }
