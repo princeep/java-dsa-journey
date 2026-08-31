@@ -51,6 +51,20 @@ public class Arrays {
             System.out.println();
         }
 
+//        4: Reverse Array (Two Pointer)
+        int marks[] = {20,30,40,50,60};
+        int start =1;
+        int end = marks.length;
+        while (start<end){
+            int temp = marks[start];
+            marks[start] = marks[end];
+            marks[end] = temp;
+            start++;
+            end--;
+        }
+        for(int i=0;i<marks.length;i++){
+            System.out.println(marks[i]);
+        }
       }
 
     }
